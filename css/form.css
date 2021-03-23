@@ -1,0 +1,85 @@
+.form {
+    margin-top: 36px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 420px) {
+    .form{
+        justify-content: center;
+    }
+}
+
+input {
+    background: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+}
+
+input::placeholder {
+    color: rgba(24, 23, 29, 1);
+    font-size: 14px;
+}
+
+.input-sub {
+    width: 273px;
+    height: 52px;
+
+    padding-left: 40px;
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 455px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+}
+
+.input-cont {
+    width: 353px;
+    height: 54px;
+
+    padding-left: 20px;
+    margin-top: 45px;
+}
+
+textarea {
+    resize: none;
+    width: 353px;
+
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+textarea::placeholder {
+    color: rgba(24, 23, 29, 1);
+    font-size: 14px;
+
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 420px) {
+    .form-contact {
+        width: 375px;
+    }
+
+    .input-cont {
+        width: 280px;
+    }
+
+    textarea {
+        width: 280px;
+    }
+}

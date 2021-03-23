@@ -1,0 +1,50 @@
+button{
+    width: 236px;
+    height: 52px;
+
+    border-radius: 35px;
+    border:  rgba(32, 145, 249, 1);
+    background: rgba(32, 145, 249, 1);
+}
+
+.btn-center {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.margin-btn {
+    margin-top: 90px;
+}
+
+
+.btn{
+    color: #ffffff;
+}
+
+.sub-btn {
+    width: 172px;
+
+    margin-left: 12px;
+}
+
+@media screen and (max-width: 420px) {
+    .sub-btn {
+        width: 273px;
+        margin-top: 12px;
+        margin-left: 0;
+    }
+}
+
+.more-btn {
+    width: 276px;
+}
+
+.more-btn-mar {
+    margin-bottom: 100px;
+}
+
+.send-btn {
+    width: 145px;
+    height: 56px;
+}

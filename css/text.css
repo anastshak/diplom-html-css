@@ -1,0 +1,119 @@
+.white-text {
+    color: #ffffff;
+}
+
+.dark-text {
+    color: rgba(37, 43, 66, 1);
+}
+
+.dark-gray-text {
+    color: rgba(55, 71, 84, 1);
+}
+
+.blue-text {
+    color: rgba(32, 145, 249, 1);
+}
+
+.text-origin {
+    font-size: 1rem;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 4.5rem;
+}
+
+@media screen and (max-width: 420px){
+    h1 {
+        font-size: 3rem;
+        font-weight: normal;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+h2 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 3rem;
+}
+
+.typical-text{
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+.width {
+    width: 50%;
+    margin: 0 auto;
+	text-align: center;
+    margin-top: 27px;
+}
+
+.feat-head-margin {
+    margin-top: 27px;
+    margin-bottom: 20px;
+}
+
+.feat-head {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 28px;
+}
+
+.second-text {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 25px;
+}
+
+.text-img-grid {
+    margin-top: 27px;
+    margin-bottom: 70px;
+}
+
+.text-art-grid {
+    margin-top: 17px;
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 420px) {
+    .text-art-grid {
+        margin-bottom: 0;
+    }
+}
+
+.logo-ibm-mar {
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.width-text {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.margin-client-btn {
+    margin-bottom: 80px;
+}
+
+.contact-mar {
+    margin-top: 200px;
+}
+
+.icon-text {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 420px) {
+    .ibm-text {
+        font-weight: bold;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
